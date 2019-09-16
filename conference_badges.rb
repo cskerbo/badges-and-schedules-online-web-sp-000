@@ -16,6 +16,6 @@ end
 
 def printer(name)
   batch = []
-  batch_badge_creator(name).each {|person| batch << "Hello, my name is #{person}."}
+  name.each {|person| batch << "Hello, my name is #{person}."}
   batch
 end
