@@ -7,3 +7,9 @@ def batch_badge_creator(name)
   name.each {|person| batch << "Hello, my name is #{person}."}
   batch
 end
+
+def assign_rooms(name, index)
+  name.each_with_index {|person, room| person[room] = index}
+  puts index
+end
+  
