@@ -14,7 +14,7 @@ def assign_rooms(name)
   index
 end
 
-def printer(name)
+def printer(name, index)
   array = batch_badge_creator(name)
-  puts array.first
+  puts array[index]
 end
