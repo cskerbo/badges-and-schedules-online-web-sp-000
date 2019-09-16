@@ -15,7 +15,5 @@ def assign_rooms(name)
 end
 
 def printer(name)
-  batch = []
-  name.each {|person| batch << "Hello, my name is #{person}."}
-  batch
+  batch_badge_creator(name)
 end
