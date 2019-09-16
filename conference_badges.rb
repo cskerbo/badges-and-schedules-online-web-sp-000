@@ -14,7 +14,7 @@ def assign_rooms(name)
   index
 end
 
-def printer(name, index)
+def printer(name)
   list_badges = batch_badge_creator(name)
   puts list_badges[index]
   rooms = assign_rooms(name)
