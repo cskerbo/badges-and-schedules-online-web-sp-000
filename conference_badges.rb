@@ -17,6 +17,4 @@ end
 def printer(name)
   list_badges = batch_badge_creator(name)
   puts list_badges.first
-  rooms = assign_rooms(name)
-  puts assign_rooms.first
 end
