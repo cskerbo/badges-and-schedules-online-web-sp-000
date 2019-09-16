@@ -10,5 +10,5 @@ end
 
 def assign_rooms(name)
   index = []
-  name.each_with_index {|person, room| person[room] = index << "Hello, #{person}! You'll be assigned to room #{room}!"}
+  name.each_with_index {|person, room| person[room] "Hello, #{person}! You'll be assigned to room #{room}!"}
 end
